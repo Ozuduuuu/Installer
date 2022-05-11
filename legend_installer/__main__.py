@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
     if os.path.isdir("./legenduserbot/"):
         rm_r("./legenduserbot/")
-    repo = Repo.clone_from("https://github.com/LegendUserb/LegendUserBot", "./legenduserbot/", branch="master")
+    repo = Repo.clone_from("https://github.com/Arazzq/LegendUserBot", "./legenduserbot/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/LegendUserb/LegendUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/Arazzq/LegendUserBot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
