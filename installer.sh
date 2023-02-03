@@ -14,13 +14,13 @@ echo -e $MESAJ
 echo "TeleThon Yüklənir"
 pip install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/Arazzq/installler
+git clone https://github.com/Ozuduuuu/Installer
 clear
 echo -e $MESAJ
-cd Legendinstaller
+cd Merlininstaller
 clear
 echo "Bəzi lazımlı dosyalar yüklənir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
-python -m legend_installer
+python -m merlin_installer
