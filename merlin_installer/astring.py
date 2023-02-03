@@ -8,7 +8,7 @@ import asyncio
 import os
 import sys
 import subprocess
-from legend_installer import hata, bilgi, onemli, soru
+from merlin_installer import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError
